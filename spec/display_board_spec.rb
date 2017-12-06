@@ -146,7 +146,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" X | X | X ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" X | X | X ") entirely filled with Xs?"
+      expect(rows[4]).to eq(" X | X | X ")
     end
 
 
@@ -160,9 +160,8 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" O | O | O ")
       expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" O | O | O ") entirely filled with Os?"
-    ## entirely filled with Xs?"
-    end # at the line start ***
+      expect(rows[4]).to eq(" O | O | O ")
+    end
       expect(true).to be(true)
     end
   end
