@@ -163,6 +163,5 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[4]).to eq(" O | O | O ")
     end
       expect(true).to be(true)
-    end
   end
 end
